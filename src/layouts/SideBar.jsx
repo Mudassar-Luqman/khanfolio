@@ -7,7 +7,7 @@ const SideBar = () => {
       <div className="sidebar-image">
         <div className="do-not-remove-this ">
           <div className="p-5 flex flex-col translate-y-6 sm:justify-around items-center ">
-            <div className="menu flex flex-col gap-4">
+            <div className="menu flex flex-col gap-4 ">
               <a
                 href="/"
                 className="px-3 side-link  cursor-pointer flex items-center gap-2 rounded-lg"
