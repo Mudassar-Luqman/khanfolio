@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #a9b2bf;
+    background-color: #212428;
+  }
+}
+
+@layer components {
+  /* social-icons */
+
+  .social-icon {
+    background: linear-gradient(180deg, #1e2125 0%, #25282c 100%);
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.45),
+      -10px 0px 35px rgba(194, 202, 213, 0.12);
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+  .social-icon:hover {
+    box-shadow: none;
+    transition-duration: 0.5s;
+  }
+
+  /* slider header */
+  .slider-header {
+    height: 80vh;
+  }
+
+  .card-shadow {
+    background: linear-gradient(180deg, #1e2125 0%, #222528 100%);
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.45),
+      -10px 0px 35px rgba(194, 202, 213, 0.12);
+    border-radius: 12px;
+  }
+  .card-shadow:hover {
+    box-shadow: none;
+    transition-duration: 0.3s;
+  }
+
+  /* sidebar */
+
+  .sidebar-image {
+    /* opacity: 0.1; */
+    background: url(/public/images/sidebar-bg.png);
+    /* background: linear-gradient(to bottom, rgba(16, 18, 20, 0), #101214),
+      url(/images/sidebar-bg.png); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .side-link:hover * {
+    color: #ffb400;
+    fill: #ffb400;
+  }
+
+  .side-link-video:hover * {
+    color: #ffb400;
+    stroke: #ffb400;
+  }
+
+  .info-card {
+    background: linear-gradient(180deg, #1e2125 0%, #25282c 100%);
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.45),
+      -10px 0px 35px rgba(194, 202, 213, 0.12);
+    border-radius: 12px;
+  }
+
+  .info-card:hover {
+    box-shadow: none;
+    transition-duration: 0.3s;
+  }
+
+  /* About me section */
+  .about-me-img {
+    background: linear-gradient(180deg, #35383e 0%, rgba(31, 33, 38, 0.5) 100%);
+    border-radius: 12px;
+  }
+
+  /* counters */
+  .counter-shadow {
+    background: linear-gradient(180deg, #1e2125 0%, #222528 100%);
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.45),
+      -10px 0px 35px rgba(194, 202, 213, 0.12);
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  .counter-shadow:hover {
+    background: linear-gradient(180deg, #1e1f23 1.79%, #101114 96.87%);
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.45),
+      -10px 0px 35px rgba(194, 202, 213, 0.12);
+    border-radius: 12px;
+    transition-duration: 0.5s;
+  }
+}
