@@ -5,13 +5,13 @@ const Expertise = () => {
   return (
     <>
       <div>
-        <h1 className=" font-bold text-6xl">
+        <h1 className=" font-bold text-5xl text-white">
           My <span className="text-primary-yellow">Expertise</span>
         </h1>
         <div className="cards grid gap-9 grid-cols-1 lg:grid-cols-2 pt-16 ">
           <div className="card-shadow  px-8 py-10">
             <h2 className="text-white uppercase tracking-widest	 font-bold text-xl pb-10">
-              Flutter Mobile App Development:
+              Flutter Mobile App Development
             </h2>
             <div className="icon-text flex gap-5  items-start align-top pb-8">
               <img className="h-6 w-6" src={tick} alt="tick" />

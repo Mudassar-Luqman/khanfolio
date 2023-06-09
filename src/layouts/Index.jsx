@@ -8,7 +8,7 @@ import { useEffect } from "react";
 
 const Index = () => {
   const ref = useRef(null);
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(true);
 
   useEffect(() => {
     const handleResize = () => {

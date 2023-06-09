@@ -9,6 +9,9 @@ import { useState } from "react";
 import AboutMe from "../components/AboutMe";
 import Counter from "../components/Counter";
 import Expertise from "../components/Expertise";
+import ResumeVideo from "../components/ResumeVideo";
+import WhatMeDo from "../components/WhatMeDo";
+import MyResume from "../components/MyResume";
 
 export const HomePage = () => {
   const [count, setCount] = useState(0);
@@ -36,7 +39,7 @@ export const HomePage = () => {
           style={{
             backgroundImage: `url(${currentBgImage.url})`,
             backgroundRepeat: "no-repeat",
-            backgroundSize: "100% 100%",
+            backgroundSize: "center",
           }}
         >
           <div className=" h-full pl-16 flex items-center">
@@ -96,6 +99,12 @@ export const HomePage = () => {
           <hr className=" w-3/4 border-1 border-black my-20  m-auto" />
           <Expertise />
           <hr className=" w-3/4 border-1 border-black my-20  m-auto" />
+          <ResumeVideo />
+          <hr className=" w-3/4 border-1 border-black my-14  m-auto" />
+          {/* what i do section */}
+          <WhatMeDo />
+          <hr className="w-3/4 border-1 border-black  my-10 lg:mt-64 mb-10  m-auto clearfix" />
+          <MyResume />
         </div>
       </div>
     </>
