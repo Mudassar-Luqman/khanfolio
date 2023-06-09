@@ -8,7 +8,7 @@ import { useEffect } from "react";
 
 const Index = () => {
   const ref = useRef(null);
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -22,10 +22,10 @@ const Index = () => {
     };
   }, []);
   return (
-    <div className="flex">
+    <div className="flex well-image">
       <div
         ref={ref}
-        className="fixed h-full border-r responsive-sidebar bg-primary-dark border-dark-color"
+        className="fixed h-full border-r responsive-sidebar  border-dark-color"
       >
         <div
           className="cursor-pointer burger-menu"

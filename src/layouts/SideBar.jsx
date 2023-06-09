@@ -4,7 +4,7 @@ import logo from "../assets/images/urdulogo.png";
 const SideBar = () => {
   return (
     <>
-      <div className="sidebar-image">
+      <div className="sidebar-image  mt-40">
         <div className="do-not-remove-this ">
           <div className="p-5 flex flex-col translate-y-6 sm:justify-around items-center ">
             <div className="menu flex flex-col gap-4 ">

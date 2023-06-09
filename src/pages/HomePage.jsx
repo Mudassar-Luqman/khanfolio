@@ -17,7 +17,7 @@ export const HomePage = () => {
   const [count, setCount] = useState(0);
   const sliderImages = [
     { id: 1, url: headerSliderOne },
-    { id: 2, url: headerSliderTwo },
+    // { id: 2, url: headerSliderTwo },
   ];
 
   const [currentBgImage, setCurrentBgImage] = useState(sliderImages[0]);
@@ -35,11 +35,11 @@ export const HomePage = () => {
     <>
       <div className="homepage">
         <div
-          className="slider-header object-contain transition-all"
+          className="slider-header h-screen object-contain transition-all"
           style={{
             backgroundImage: `url(${currentBgImage.url})`,
             backgroundRepeat: "no-repeat",
-            backgroundSize: "center",
+            backgroundSize: "cover",
           }}
         >
           <div className=" h-full pl-16 flex items-center">
@@ -53,12 +53,15 @@ export const HomePage = () => {
                   <span className="text-primary-yellow">Bilal Khan</span>{" "}
                   Nawabzada
                 </h1>
-                <h1 className="text-xl md:text-4xl font-bold leading-loose transition-all mt-2">
+                <h1 className="text-xl md:text-4xl font-bold leading-loose duration-1000 mt-2">
                   <Typewriter
                     options={{
                       strings: ["Flutter Expert", "Product Manager"],
                       autoStart: true,
                       loop: true,
+                      deleteSpeed: "natural",
+                      delay: "natural",
+                      changeDeleteSpeed: "natural",
                     }}
                   />
                 </h1>
@@ -105,6 +108,8 @@ export const HomePage = () => {
           <WhatMeDo />
           <hr className="w-3/4 border-1 border-black  my-10 lg:mt-64 mb-10  m-auto clearfix" />
           <MyResume />
+
+          <div className="py-20"></div>
         </div>
       </div>
     </>
