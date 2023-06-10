@@ -12,6 +12,8 @@ import Expertise from "../components/Expertise";
 import ResumeVideo from "../components/ResumeVideo";
 import WhatMeDo from "../components/WhatMeDo";
 import MyResume from "../components/MyResume";
+import TextImage from "../components/TextImage";
+import Portfolio from "../components/Portfolio";
 
 export const HomePage = () => {
   const [count, setCount] = useState(0);
@@ -108,8 +110,12 @@ export const HomePage = () => {
           <WhatMeDo />
           <hr className="w-3/4 border-1 border-black  my-10 lg:mt-64 mb-10  m-auto clearfix" />
           <MyResume />
+          <hr className=" w-3/4 border-1 border-black my-16  m-auto" />
 
-          <div className="py-20"></div>
+          <TextImage text={"The education should be very interactual."} />
+          <hr className=" w-3/4 border-1 border-black my-16  m-auto" />
+
+          <Portfolio />
         </div>
       </div>
     </>

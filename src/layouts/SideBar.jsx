@@ -4,9 +4,9 @@ import logo from "../assets/images/urdulogo.png";
 const SideBar = () => {
   return (
     <>
-      <div className="sidebar-image  mt-40">
+      <div className="sidebar-image  mt-28">
         <div className="do-not-remove-this ">
-          <div className="p-5 flex flex-col translate-y-6 sm:justify-around items-center ">
+          <div className="p-5 flex flex-col sm:justify-around items-center ">
             <div className="menu flex flex-col gap-4 ">
               <a
                 href="/"
@@ -284,7 +284,7 @@ const SideBar = () => {
                 className="px-3 pt-4 side-link  cursor-pointer flex items-center gap-2 rounded-lg"
               >
                 <svg
-                  className="w-5 h-5"
+                  className="w-4 h-4"
                   width="20"
                   height="16"
                   viewBox="0 0 20 16"
@@ -299,14 +299,14 @@ const SideBar = () => {
                   />
                 </svg>
 
-                <h2 className="font-semibold text-ms">+62 123 6700 411</h2>
+                <h2 className="font-semibold text-sm">+62 123 6700 411</h2>
               </a>
               <a
                 href="/"
                 className="px-3 side-link  cursor-pointer flex items-center gap-2 rounded-lg"
               >
                 <svg
-                  className="w-5 h-5"
+                  className="w-4 h-4"
                   width="18"
                   height="18"
                   viewBox="0 0 18 18"
@@ -321,7 +321,7 @@ const SideBar = () => {
                   />
                 </svg>
 
-                <h2 className="font-semibold text-md">+62 123 6700 411</h2>
+                <h2 className="font-semibold text-sm">+62 123 6700 411</h2>
               </a>
             </div>
           </div>
