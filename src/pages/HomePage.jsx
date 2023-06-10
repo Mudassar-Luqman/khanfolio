@@ -14,6 +14,7 @@ import WhatMeDo from "../components/WhatMeDo";
 import MyResume from "../components/MyResume";
 import TextImage from "../components/TextImage";
 import Portfolio from "../components/Portfolio";
+import Highlights from "../components/Highlights";
 
 export const HomePage = () => {
   const [count, setCount] = useState(0);
@@ -114,8 +115,10 @@ export const HomePage = () => {
 
           <TextImage text={"The education should be very interactual."} />
           <hr className=" w-3/4 border-1 border-black my-16  m-auto" />
-
           <Portfolio />
+          <hr className=" w-3/4 border-1 border-black my-16  m-auto" />
+
+          <Highlights />
         </div>
       </div>
     </>

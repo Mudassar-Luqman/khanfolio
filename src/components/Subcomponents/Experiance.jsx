@@ -67,7 +67,7 @@ const Experiance = () => {
         </div>
         <div
           href="#"
-          className="p-4 mt-4  relative duration-300 cursor-pointer experience hover:text-white rounded-xl"
+          className="p-4 relative duration-300 cursor-pointer experience hover:text-white rounded-xl"
         >
           <h1 className="text-white text-2xl py-4">Bachelor Degree</h1>
 
@@ -130,7 +130,7 @@ const Experiance = () => {
       <div className="card-shadow  p-8">
         <div
           href="#"
-          className="p-4   relative duration-300 cursor-pointer experience hover:text-white rounded-xl"
+          className="p-4 relative duration-300 cursor-pointer experience hover:text-white rounded-xl"
         >
           <h1 className="text-white text-2xl py-4">Bachelor Degree</h1>
 

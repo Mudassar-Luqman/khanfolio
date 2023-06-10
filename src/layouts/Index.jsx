@@ -25,7 +25,7 @@ const Index = () => {
     <div className="flex well-image">
       <div
         ref={ref}
-        className="fixed h-full border-r responsive-sidebar  border-dark-color"
+        className="fixed h-full border-r responsive-sidebar z-50 border-dark-color"
       >
         <div
           className="cursor-pointer burger-menu"
