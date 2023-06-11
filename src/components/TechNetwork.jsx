@@ -61,7 +61,7 @@ const TechNetwork = () => {
   }, [limit]);
 
   return (
-    <div>
+    <div data-aos="fade-down" data-aos-anchor-placement="top-center">
       <h1 className=" font-bold text-5xl text-white">
         My Tech <span className="text-primary-yellow ">Network</span>
       </h1>

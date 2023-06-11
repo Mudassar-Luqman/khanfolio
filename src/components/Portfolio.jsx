@@ -3,7 +3,7 @@ import portfolioImage from "../assets/images/portfolio-img1.png";
 
 const Portfolio = () => {
   return (
-    <div id="portfolio">
+    <div id="portfolio" data-aos="zoom-in">
       <h1 className=" font-bold text-5xl text-white">
         My <span className="text-primary-yellow ">Portfolio</span>
       </h1>

@@ -5,7 +5,10 @@ const AboutMe = () => {
   return (
     <div className="about-me my-5" id="about">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-14 ">
-        <div className="left card-shadow p-5 m-auto col-span-1 ">
+        <div
+          className="left card-shadow p-5 m-auto col-span-1 "
+          data-aos="fade-right"
+        >
           <div className="">
             <img
               className="about-me-img pt-5 px-2"
@@ -14,11 +17,11 @@ const AboutMe = () => {
             />
           </div>
         </div>
-        <div className="right col-span-2  ">
-          <h1 className=" text-2xl md:text-5xl leading-loose mt-2 text-white  font-bold ">
+        <div className="  col-span-2" data-aos="fade-left">
+          <h1 className="pl-12 text-2xl md:text-5xl leading-loose mt-2 text-white  font-bold ">
             About <span className="text-primary-yellow">Me</span>
           </h1>
-          <div className=" w-10/12 ">
+          <div className=" mx-auto w-10/12 ">
             <p className="pt-20">
               I’m a Front-End Developer located in Poland. I have a serious
               passion for UI effects, animations and creating intuitive, dynamic

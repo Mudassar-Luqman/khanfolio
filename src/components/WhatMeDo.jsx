@@ -7,7 +7,12 @@ const WhatMeDo = () => {
         What I <span className="text-primary-yellow">Do</span>
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 ">
-        <div href="#" className="card-shadow p-10 what-i-do-card">
+        <div
+          href="#"
+          className="card-shadow p-10 what-i-do-card"
+          data-aos="flip-left"
+          data-aos-duration="300"
+        >
           <svg
             className="w-20 h-20"
             width="110"
@@ -54,6 +59,8 @@ const WhatMeDo = () => {
         </div>
         {/* ============ */}
         <div
+          data-aos="flip-right"
+          data-aos-duration="370"
           href="#"
           className="card-shadow p-10 what-i-do-card lg:translate-y-20"
         >
@@ -104,6 +111,8 @@ const WhatMeDo = () => {
         </div>
 
         <div
+          data-aos="flip-up"
+          data-aos-duration="400"
           href="#"
           className="card-shadow p-10 what-i-do-card lg:translate-y-40"
         >
@@ -145,7 +154,12 @@ const WhatMeDo = () => {
           </p>
         </div>
         {/* another card row */}
-        <div href="#" className="card-shadow p-10 what-i-do-card ">
+        <div
+          href="#"
+          className="card-shadow p-10 what-i-do-card "
+          data-aos="flip-left"
+          data-aos-duration="500"
+        >
           <svg
             className="h-20 w-20"
             width="110"
@@ -204,6 +218,8 @@ const WhatMeDo = () => {
           </p>
         </div>
         <div
+          data-aos="flip-right"
+          data-aos-duration="600"
           href="#"
           className="card-shadow p-10 what-i-do-card lg:translate-y-20"
         >
@@ -245,6 +261,8 @@ const WhatMeDo = () => {
           </p>
         </div>
         <div
+          data-aos="flip-up"
+          data-aos-duration="700"
           href="#"
           className="card-shadow p-10 what-i-do-card lg:translate-y-40"
         >

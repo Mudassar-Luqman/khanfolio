@@ -9,7 +9,7 @@ const Expertise = () => {
           My <span className="text-primary-yellow">Expertise</span>
         </h1>
         <div className="cards grid gap-9 grid-cols-1 lg:grid-cols-2 pt-16 ">
-          <div className="card-shadow  px-8 py-10">
+          <div className="card-shadow  px-8 py-10" data-aos="fade-right">
             <h2 className="text-white uppercase tracking-widest	 font-bold text-xl pb-10">
               Flutter Mobile App Development
             </h2>
@@ -112,7 +112,7 @@ const Expertise = () => {
               </p>
             </div>
           </div>
-          <div className="card-shadow  px-8 py-10">
+          <div className="card-shadow  px-8 py-10" data-aos="fade-left">
             <h2 className="text-white uppercase tracking-widest	 font-bold text-xl pb-10">
               Project & Product management
             </h2>

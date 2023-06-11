@@ -11,11 +11,11 @@ const MyResume = () => {
   const [tabs, setTabs] = useState(1);
 
   return (
-    <div className="relative" id="resume">
+    <div className="relative" id="resume" data-aos="zoom-in">
       <h1 className=" font-bold text-5xl text-white">
         My <span className="text-primary-yellow ">Resume</span>
       </h1>
-      <div className="mt-8 card-shadow-resume bg-lime-400  flex justify-around duration-700">
+      <div className="mt-8 card-shadow-resume  md:flex justify-around duration-700">
         <div>
           <h1
             onClick={() => setTabs(1)}

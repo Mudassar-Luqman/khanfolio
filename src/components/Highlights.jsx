@@ -10,7 +10,12 @@ import gallyeight from "../assets/images/gally8.png";
 
 const Highlights = () => {
   return (
-    <div className="" id="highlights">
+    <div
+      className=""
+      id="highlights"
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom"
+    >
       <h1 className=" font-bold text-5xl text-white">
         High<span className="text-primary-yellow ">lights</span>
       </h1>

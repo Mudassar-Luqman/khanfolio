@@ -50,7 +50,11 @@ const Testimonials = () => {
   ];
 
   return (
-    <div id="testimonials">
+    <div
+      id="testimonials"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-center"
+    >
       <h1 className=" font-bold text-5xl text-white">
         Client <span className="text-primary-yellow ">Testimonials</span>
       </h1>

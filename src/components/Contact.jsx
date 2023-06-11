@@ -7,7 +7,12 @@ import circle from "../assets/icons/circle.png";
 
 const Contact = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 relative" id="contact">
+    <div
+      className="grid grid-cols-1 md:grid-cols-3 relative"
+      id="contact"
+      data-aos="fade-right"
+      data-aos-anchor-placement="top-center"
+    >
       <div className="card-shadow-contact p-6 select-none col-span-1">
         <img className="w-full" src={contact} alt="Contact" />
         <h2 className=" text-xl font-bold text-white pt-6">

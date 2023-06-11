@@ -6,6 +6,16 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+.slider-header {
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @layer base {
   body {
     font-family: "Roboto", sans-serif;
@@ -252,33 +262,6 @@ html {
     object-fit: fill;
   }
 
-  /* myblog section */
-  /* .blog-card-image {
-    position: relative;
-  }
-
- 
-
-  .blog-card-image:before {
-    content: "";
-    display: block;
-    position: absolute;
-    height: 0%;
-    width: 100%;
-    bottom: 0;
-    transition: height 0.3s ease-out;
-    background: linear-gradient(
-      to bottom,
-      rgb(254, 240, 138, 0),
-      rgb(253, 224, 71, 0.08),
-      rgb(250, 204, 21, 0.8)
-    );
-    border-radius: 10px;
-  }
-  .blog-card-image:hover:before {
-    height: 100%;
-  } */
-
   .blog-card-image {
     position: relative;
     transition-duration: 0.3s;
@@ -413,6 +396,12 @@ html {
     .card-shadow-resume .custom-tab {
       padding: 10px 15px;
       font-size: 15px;
+    }
+  }
+  @media only screen and (max-width: 660px) {
+    .card-shadow-resume {
+      display: grid;
+      grid-template-columns: 1fr;
     }
   }
 }

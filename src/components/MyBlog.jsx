@@ -5,7 +5,7 @@ import myblog3 from "../assets/images/myblog3.png";
 
 const MyBlog = () => {
   return (
-    <div id="blogs">
+    <div id="blogs" data-aos="fade-up" data-aos-anchor-placement="top-center">
       <h1 className=" font-bold text-5xl text-white">
         My <span className="text-primary-yellow ">Blog</span>
       </h1>

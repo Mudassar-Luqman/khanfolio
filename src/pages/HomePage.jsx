@@ -54,11 +54,9 @@ export const HomePage = () => {
           className="slider-header h-screen object-contain transition-all"
           style={{
             backgroundImage: `url(${currentBgImage.url})`,
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
           }}
         >
-          <div className=" h-full pl-16 flex items-center">
+          <div className=" h-full pl-3 sm:pl-10 md:pl-16 flex items-center">
             <div className="main-header   ">
               <div className="content text-white">
                 <h1 className="text-md md:text-2xl leading-loose font-bold">

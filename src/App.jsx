@@ -7,7 +7,7 @@ import { HomePage } from "./pages/HomePage";
 
 function App() {
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <BrowserRouter>
         <Routes>
           <Route element={<Layout />}>
