@@ -129,7 +129,10 @@ const Testimonials = () => {
       </div>
       <div className="">
         {sliderContent.slice(limit.start, limit.end).map((item) => (
-          <div className="grid grid-cols-3 gap-2 md:gap-10 mt-10">
+          <div
+            className="grid grid-cols-3 gap-2 md:gap-10 mt-10"
+            key={Math.random()}
+          >
             <div className="card-shadow p-5 select-none col-span-1">
               <img className="w-full" src={item.img} alt={item.name} />
               <h2 className=" text-2xl font-bold text-white pt-4">

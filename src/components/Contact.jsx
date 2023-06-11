@@ -1,5 +1,5 @@
 import React from "react";
-import contact from "../assets/images/team.png";
+import contact from "../assets/images/contact.png";
 import fb from "../assets/icons/fb.svg";
 import twitter from "../assets/icons/twitter.svg";
 import instagram from "../assets/icons/instagram.svg";
@@ -7,7 +7,7 @@ import instagram from "../assets/icons/instagram.svg";
 const Contact = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3" id="contact">
-      <div className="card-shadow-contact p-10 select-none col-span-1">
+      <div className="card-shadow-contact p-6 select-none col-span-1">
         <img className="w-full" src={contact} alt="Contact" />
         <h2 className=" text-xl font-bold text-white pt-6">
           Bilal Khan Nawabzada
@@ -24,7 +24,7 @@ const Contact = () => {
           <span className="text-primary-yellow">Email: </span>nevine@gmail.com
         </p>
 
-        <div className="social-icons  flex gap-4 mt-8">
+        <div className="social-icons pb-5 flex gap-4 mt-8">
           <img
             className="social-icon w-10 md:w-16 h-10 md:h-16 p-3 md:p-5"
             src={fb}

@@ -20,6 +20,7 @@ import MyBlog from "../components/MyBlog";
 import Testimonials from "../components/Testimonials";
 import TextImag from "../components/TextImag";
 import Contact from "../components/Contact";
+import Footer from "../layouts/Footer";
 
 export const HomePage = () => {
   const [count, setCount] = useState(0);
@@ -134,6 +135,7 @@ export const HomePage = () => {
           <TextImag text={"The education should be very interactual."} />
           <hr className=" w-3/4 border-1 border-black my-16  m-auto" />
           <Contact />
+          <Footer />
         </div>
       </div>
     </>
