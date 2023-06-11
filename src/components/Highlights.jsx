@@ -10,7 +10,7 @@ import gallyeight from "../assets/images/gally8.png";
 
 const Highlights = () => {
   return (
-    <div className="">
+    <div className="" id="highlights">
       <h1 className=" font-bold text-5xl text-white">
         High <span className="text-primary-yellow ">lights</span>
       </h1>

@@ -3,7 +3,7 @@ import aboutMeImg from "../assets/images/about-me.png";
 
 const AboutMe = () => {
   return (
-    <div className="about-me my-5">
+    <div className="about-me my-5" id="about">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-14 ">
         <div className="left card-shadow p-5 m-auto col-span-1 ">
           <div className="">

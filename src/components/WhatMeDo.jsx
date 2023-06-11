@@ -2,7 +2,7 @@ import React from "react";
 
 const WhatMeDo = () => {
   return (
-    <div className="what-i-do">
+    <div className="what-i-do" id="services">
       <h1 className=" font-bold text-5xl text-white pb-14">
         What I <span className="text-primary-yellow">Do</span>
       </h1>

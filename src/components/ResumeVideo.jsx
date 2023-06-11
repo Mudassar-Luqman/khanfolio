@@ -2,7 +2,7 @@ import React from "react";
 
 const ResumeVideo = () => {
   return (
-    <div>
+    <div id="video">
       <h1 className=" font-bold text-5xl text-white">
         Resume <span className="text-primary-yellow">Video</span>
         <div className="p-5 card-shadow mt-10">

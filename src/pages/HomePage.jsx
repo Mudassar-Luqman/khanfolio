@@ -16,6 +16,10 @@ import TextImage from "../components/TextImage";
 import Portfolio from "../components/Portfolio";
 import Highlights from "../components/Highlights";
 import TechNetwork from "../components/TechNetwork";
+import MyBlog from "../components/MyBlog";
+import Testimonials from "../components/Testimonials";
+import TextImag from "../components/TextImag";
+import Contact from "../components/Contact";
 
 export const HomePage = () => {
   const [count, setCount] = useState(0);
@@ -37,7 +41,7 @@ export const HomePage = () => {
 
   return (
     <>
-      <div className="homepage">
+      <div className="homepage" id="home">
         <div
           className="slider-header h-screen object-contain transition-all"
           style={{
@@ -122,6 +126,14 @@ export const HomePage = () => {
           <hr className=" w-3/4 border-1 border-black my-16  m-auto" />
           <TechNetwork />
           <hr className=" w-3/4 border-1 border-black my-16  m-auto" />
+          <MyBlog />
+          <hr className=" w-3/4 border-1 border-black my-16  m-auto" />
+
+          <Testimonials />
+          <hr className=" w-3/4 border-1 border-black my-16  m-auto" />
+          <TextImag text={"The education should be very interactual."} />
+          <hr className=" w-3/4 border-1 border-black my-16  m-auto" />
+          <Contact />
         </div>
       </div>
     </>

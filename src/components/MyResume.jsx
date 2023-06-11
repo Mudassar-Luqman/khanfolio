@@ -9,44 +9,11 @@ const MyResume = () => {
   const [tabs, setTabs] = useState(1);
 
   return (
-    <div className="">
-      {/* glow circle */}
-      {/* <svg
-        className="absolute -translate-x-40"
-        width="663"
-        height="663"
-        viewBox="0 0 663 663"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g opacity="0.5" filter="url(#filter0_f_185_361)">
-          <circle cx="331.5" cy="331.5" r="141.5" fill="#FFB400" />
-        </g>
-        <defs>
-          <filter
-            id="filter0_f_185_361"
-            x="0"
-            y="0"
-            width="663"
-            height="663"
-            filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
-          >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend
-              mode="normal"
-              in="SourceGraphic"
-              in2="BackgroundImageFix"
-              result="shape"
-            />
-            <feGaussianBlur
-              stdDeviation="95"
-              result="effect1_foregroundBlur_185_361"
-            />
-          </filter>
-        </defs>
-      </svg> */}
-      <div className="card-shadow-resume bg-lime-400  flex justify-around duration-700">
+    <div className="" id="resume">
+      <h1 className=" font-bold text-5xl text-white">
+        My <span className="text-primary-yellow ">Resume</span>
+      </h1>
+      <div className="mt-8 card-shadow-resume bg-lime-400  flex justify-around duration-700">
         <div>
           <h1
             onClick={() => setTabs(1)}
