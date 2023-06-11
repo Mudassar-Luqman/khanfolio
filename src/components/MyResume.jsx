@@ -4,12 +4,14 @@ import EducationCards from "./EducationCards";
 import ProfessionalSkills from "./Subcomponents/ProfessionalSkills";
 import Experiance from "./Subcomponents/Experiance";
 import Achievments from "./Subcomponents/Achievments";
+import circle from "../assets/icons/circle.png";
+import yellowBlob from "../assets/icons/yellow-blob.svg";
 
 const MyResume = () => {
   const [tabs, setTabs] = useState(1);
 
   return (
-    <div className="" id="resume">
+    <div className="relative" id="resume">
       <h1 className=" font-bold text-5xl text-white">
         My <span className="text-primary-yellow ">Resume</span>
       </h1>
@@ -75,6 +77,17 @@ const MyResume = () => {
           <Achievments />
         )}
       </div>
+
+      <img
+        className="absolute circle-animation -bottom-8 -right-10 -z-10 w-28"
+        src={circle}
+        alt=""
+      />
+      <img
+        className="absolute animate-pulse -left-40 bottom-0 -z-10"
+        src={yellowBlob}
+        alt=""
+      />
     </div>
   );
 };

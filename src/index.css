@@ -376,7 +376,7 @@ html {
       transition-duration: 0.3s;
 
       background: linear-gradient(
-          rgb(55, 65, 81, 0.3),
+          rgb(55, 65, 81, 0.5),
           rgb(0, 0, 0, 0.9),
           #212428
         ),
@@ -417,3 +417,39 @@ html {
 }
 /* .responsive;
 } */
+
+/* animations */
+
+/* circle-animation */
+
+.circle-animation {
+  animation: rotate-center 8s linear forwards infinite;
+}
+
+/* ----------------------------------------------
+
+/**
+ * ----------------------------------------
+ * animation rotate-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

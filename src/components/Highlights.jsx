@@ -12,7 +12,7 @@ const Highlights = () => {
   return (
     <div className="" id="highlights">
       <h1 className=" font-bold text-5xl text-white">
-        High <span className="text-primary-yellow ">lights</span>
+        High<span className="text-primary-yellow ">lights</span>
       </h1>
 
       <div className="card-shadow mt-14">

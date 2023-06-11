@@ -3,10 +3,11 @@ import contact from "../assets/images/contact.png";
 import fb from "../assets/icons/fb.svg";
 import twitter from "../assets/icons/twitter.svg";
 import instagram from "../assets/icons/instagram.svg";
+import circle from "../assets/icons/circle.png";
 
 const Contact = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3" id="contact">
+    <div className="grid grid-cols-1 md:grid-cols-3 relative" id="contact">
       <div className="card-shadow-contact p-6 select-none col-span-1">
         <img className="w-full" src={contact} alt="Contact" />
         <h2 className=" text-xl font-bold text-white pt-6">
@@ -92,6 +93,11 @@ const Contact = () => {
           Send Message
         </button>
       </div>
+      <img
+        className="absolute circle-animation -top-8 -right-10 -z-10 w-28"
+        src={circle}
+        alt=""
+      />
     </div>
   );
 };

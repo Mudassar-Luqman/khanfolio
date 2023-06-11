@@ -128,7 +128,7 @@ const TechNetwork = () => {
       <div className="grid grid-cols-2 pt-8 lg:grid-cols-3 gap-10">
         {sliderContent.slice(limit.start, limit.end).map((item) => (
           <div className="card-shadow p-5" key={Math.random()}>
-            <img src={item.img} alt={item.name} />
+            <img className=" select-none" src={item.img} alt={item.name} />
             <h2 className=" text-white font-semibold text-xl pt-4">
               {item.name}
             </h2>
