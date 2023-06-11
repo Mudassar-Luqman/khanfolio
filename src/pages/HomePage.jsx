@@ -21,6 +21,7 @@ import Testimonials from "../components/Testimonials";
 import TextImag from "../components/TextImag";
 import Contact from "../components/Contact";
 import Footer from "../layouts/Footer";
+import WhyChooseMe from "../components/WhyChooseMe";
 
 export const HomePage = () => {
   const [count, setCount] = useState(0);
@@ -122,6 +123,8 @@ export const HomePage = () => {
           <TextImage text={"The education should be very interactual."} />
           <hr className=" w-3/4 border-1 border-black my-16  m-auto" />
           <Portfolio />
+          <hr className=" w-3/4 border-1 border-black my-16  m-auto" />
+          <WhyChooseMe />
           <hr className=" w-3/4 border-1 border-black my-16  m-auto" />
           <Highlights />
           <hr className=" w-3/4 border-1 border-black my-16  m-auto" />
