@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import team from "../assets/images/team.png";
 import { useState } from "react";
+import { gsap } from "gsap";
 
 const TechNetwork = () => {
+  const teamAnim = useRef(null);
+  const [button, setButton] = useState(null);
   const [limit, setLimit] = useState({
     start: 0,
     end: 3,
@@ -48,6 +51,15 @@ const TechNetwork = () => {
     },
   ];
 
+  useEffect(() => {
+    gsap.from(teamAnim.current, {
+      duration: 0.4,
+      opacity: 0,
+      x: button ? 900 : -900,
+      ease: "power3.out",
+    });
+  }, [limit]);
+
   return (
     <div>
       <h1 className=" font-bold text-5xl text-white">
@@ -60,7 +72,7 @@ const TechNetwork = () => {
             if (limit.start < 1) {
               return;
             }
-
+            setButton(false);
             setLimit({ start: limit.start - 1, end: limit.end - 1 });
           }}
         >
@@ -95,6 +107,7 @@ const TechNetwork = () => {
             if (limit.end >= sliderContent.length) {
               return;
             }
+            setButton(true);
             setLimit({ start: limit.start + 1, end: limit.end + 1 });
           }}
         >
@@ -127,7 +140,7 @@ const TechNetwork = () => {
       </div>
       <div className="grid grid-cols-2 pt-8 lg:grid-cols-3 gap-10">
         {sliderContent.slice(limit.start, limit.end).map((item) => (
-          <div className="card-shadow p-5" key={Math.random()}>
+          <div ref={teamAnim} className="card-shadow p-5" key={Math.random()}>
             <img className=" select-none" src={item.img} alt={item.name} />
             <h2 className=" text-white font-semibold text-xl pt-4">
               {item.name}

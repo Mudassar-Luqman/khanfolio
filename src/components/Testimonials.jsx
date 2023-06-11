@@ -1,6 +1,7 @@
 import React from "react";
 import team from "../assets/images/team.png";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { gsap } from "gsap";
 
 const Testimonials = () => {
   const [limit, setLimit] = useState({
@@ -61,6 +62,19 @@ const Testimonials = () => {
               return;
             }
 
+            gsap.from(
+              ".testtim",
+
+              {
+                x: 1000, // Move to the right
+                yoyo: true, // Reverse the animation
+                repeat: false, // Repeat indefinitely
+                duration: 0.8, // Duration of each half of the animation
+                ease: "power3.out", // Easing function
+                stagger: 0.2,
+              }
+            );
+
             setLimit({ start: limit.start - 1, end: limit.end - 1 });
           }}
         >
@@ -96,6 +110,20 @@ const Testimonials = () => {
             if (limit.end >= sliderContent.length) {
               return;
             }
+
+            gsap.from(
+              ".testtim",
+
+              {
+                x: -1000, // Move to the right
+                yoyo: true, // Reverse the animation
+                repeat: false, // Repeat indefinitely
+                duration: 0.7, // Duration of each half of the animation
+                ease: "power3.out", // Easing function
+                stagger: 0.2,
+              }
+            );
+
             setLimit({ start: limit.start + 1, end: limit.end + 1 });
           }}
         >
@@ -127,13 +155,13 @@ const Testimonials = () => {
           </svg>
         </div>
       </div>
-      <div className="">
+      <div className="testtim ease-in">
         {sliderContent.slice(limit.start, limit.end).map((item) => (
           <div
-            className="grid grid-cols-3 gap-2 md:gap-10 mt-10"
+            className="grid grid-cols-3 gap-2 md:gap-10 mt-10 "
             key={Math.random()}
           >
-            <div className="card-shadow p-5 select-none col-span-1">
+            <div className="card-shadow p-5 select-none col-span-1 ">
               <img className="w-full" src={item.img} alt={item.name} />
               <h2 className=" text-2xl font-bold text-white pt-4">
                 {item.name}

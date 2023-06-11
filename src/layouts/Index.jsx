@@ -5,8 +5,13 @@ import TopBar from "./TopBar";
 import { useState } from "react";
 import { useRef } from "react";
 import { useEffect } from "react";
+import { gsap } from "gsap";
 
 const Index = () => {
+  useEffect(() => {
+    gsap.from(".anim-sidebar", { duration: 0.7, x: "-500px" });
+  }, []);
+
   const ref = useRef(null);
   const [showMenu, setShowMenu] = useState(false);
 
@@ -25,7 +30,7 @@ const Index = () => {
     <div className="flex well-image">
       <div
         ref={ref}
-        className="fixed h-full border-r responsive-sidebar z-50 border-dark-color"
+        className="fixed anim-sidebar h-full border-r responsive-sidebar z-50 border-dark-color"
       >
         <div
           className="cursor-pointer burger-menu"

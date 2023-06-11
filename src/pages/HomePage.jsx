@@ -22,9 +22,15 @@ import TextImag from "../components/TextImag";
 import Contact from "../components/Contact";
 import Footer from "../layouts/Footer";
 import WhyChooseMe from "../components/WhyChooseMe";
+import { gsap } from "gsap";
 
 export const HomePage = () => {
   const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    gsap.from(".main-header", { duration: 0.7, x: "500px" });
+  }, []);
+
   const sliderImages = [
     { id: 1, url: headerSliderOne },
     // { id: 2, url: headerSliderTwo },
