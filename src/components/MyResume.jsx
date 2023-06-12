@@ -19,7 +19,7 @@ const MyResume = () => {
         <div>
           <h1
             onClick={() => setTabs(1)}
-            className={`hover:text-primary-yellow select-none  duration-300 text-2xl custom-tab ${
+            className={`hover:text-primary-yellow select-none  duration-300 text-xl custom-tab ${
               tabs === 1
                 ? " card-shadow text-primary-yellow"
                 : "text-primary-text-gray"
@@ -31,7 +31,7 @@ const MyResume = () => {
         <div>
           <h1
             onClick={() => setTabs(2)}
-            className={`hover:text-primary-yellow select-none text-primary-text-gray duration-300 text-2xl custom-tab ${
+            className={`hover:text-primary-yellow select-none text-primary-text-gray duration-300 text-xl custom-tab ${
               tabs === 2
                 ? " card-shadow text-primary-yellow"
                 : "text-primary-text-gray"
@@ -43,7 +43,7 @@ const MyResume = () => {
         <div>
           <h1
             onClick={() => setTabs(3)}
-            className={`hover:text-primary-yellow select-none text-primary-text-gray duration-300 text-2xl custom-tab ${
+            className={`hover:text-primary-yellow select-none text-primary-text-gray duration-300 text-xl custom-tab ${
               tabs === 3
                 ? " card-shadow text-primary-yellow"
                 : "text-primary-text-gray"
@@ -55,7 +55,7 @@ const MyResume = () => {
         <div>
           <h1
             onClick={() => setTabs(4)}
-            className={`hover:text-primary-yellow select-none text-primary-text-gray duration-300 text-2xl custom-tab ${
+            className={`hover:text-primary-yellow select-none text-primary-text-gray duration-300 text-xl custom-tab ${
               tabs === 4
                 ? " card-shadow text-primary-yellow"
                 : "text-primary-text-gray"
