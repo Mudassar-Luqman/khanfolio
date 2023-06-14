@@ -10,9 +10,7 @@ const Achievments = () => {
       <div className="icon-text flex gap-5  items-start align-top pb-8">
         <img className="" src={awardFour} alt="awardFour" />
         <div>
-          <h1 className=" font-bold  text-2xl text-white ">
-            Best Developer award in 2007
-          </h1>
+          <h1 className=" font-bold  text-2xl text-white ">Gold Medalist</h1>
           <p className="text-primary-text-gray pt-3">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
@@ -24,12 +22,12 @@ const Achievments = () => {
         <img className="" src={awardThree} alt="awardThree" />
         <div>
           <h1 className=" font-bold  text-2xl text-white ">
-            User research award 2009
+            Award of Creativity & innovation
           </h1>
           <p className="text-primary-text-gray pt-3">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour,
+            Superior University Lahore Awarded with Creativity & innovation
+            Award in Technopreneurial Expo'16 on winning Project Competition at
+            Expo Center Lahore.
           </p>
         </div>
       </div>
@@ -37,12 +35,12 @@ const Achievments = () => {
         <img className="" src={awardTwo} alt="awardTwo" />
         <div>
           <h1 className=" font-bold  text-2xl text-white ">
-            Best Wordpress award in 2011
+            Award of Excellence
           </h1>
           <p className="text-primary-text-gray pt-3">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour,
+            Superior University Lahore Awarded with "Award of Excellence" for
+            winning MIT Blossoms Competition in Superior Olympiad at Superior
+            University Organized by IEEE SUL & Superior IT Club on May 2015.
           </p>
         </div>
       </div>
@@ -50,12 +48,43 @@ const Achievments = () => {
         <img className="" src={awardOne} alt="awardOne" />
         <div>
           <h1 className=" font-bold  text-2xl text-white ">
-            Android Developer
+            Speed Programming Winner
           </h1>
           <p className="text-primary-text-gray pt-3">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour,
+            Superior University Lahore Awarded with "Award of Excellence" for
+            winning Speed Programming Competition in SQPC (Superior Quiz &
+            Programming Competition) at Superior University Organized by IEEE
+            SUL & Superior IT Club on August 2014.
+          </p>
+        </div>
+      </div>
+
+      <div className="icon-text flex gap-5 mt-8 items-start align-top pb-8">
+        <img className="" src={awardOne} alt="awardOne" />
+        <div>
+          <h1 className=" font-bold  text-2xl text-white ">
+            IEEE General Sectary SUL
+          </h1>
+          <p className="text-primary-text-gray pt-3">
+            Superior University Lahore Awarded with "Award of Excellence" for
+            winning Speed Programming Competition in SQPC (Superior Quiz &
+            Programming Competition) at Superior University Organized by IEEE
+            SUL & Superior IT Club on August 2014.
+          </p>
+        </div>
+      </div>
+
+      <div className="icon-text flex gap-5 mt-8 items-start align-top pb-8">
+        <img className="" src={awardOne} alt="awardOne" />
+        <div>
+          <h1 className=" font-bold  text-2xl text-white ">
+            Vice President Of IT Club
+          </h1>
+          <p className="text-primary-text-gray pt-3">
+            Superior University Lahore Awarded with "Award of Excellence" for
+            winning Speed Programming Competition in SQPC (Superior Quiz &
+            Programming Competition) at Superior University Organized by IEEE
+            SUL & Superior IT Club on August 2014.
           </p>
         </div>
       </div>

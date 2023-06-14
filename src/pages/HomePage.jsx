@@ -58,31 +58,38 @@ export const HomePage = () => {
         >
           <div className=" h-full pl-3 sm:pl-10 md:pl-16 flex items-center">
             <div className="main-header   ">
-              <div className="content text-white">
-                <h1 className="text-md md:text-2xl leading-loose font-bold">
+              <div className="content text-white ">
+                <h1 className="text-md md:text-2xl leading-loose font-bold drop-shadow-2xl">
                   {" "}
                   Hi,I'm
                 </h1>
-                <h1 className=" text-2xl md:text-5xl leading-loose mt-2  font-bold ">
+                <h1 className="drop-shadow-2xl text-2xl md:text-5xl leading-loose mt-2  font-bold ">
                   <span className="text-primary-yellow">Bilal Khan</span>{" "}
                   Nawabzada
                 </h1>
-                <h1 className="text-xl md:text-4xl font-bold leading-loose duration-1000 mt-2">
+                <h1 className="text-xl md:text-4xl typewriter font-bold leading-loose duration-300 mt-2 flex">
+                  <span className="pr-2">a, </span>
                   <Typewriter
                     options={{
-                      strings: ["Flutter Expert", "Product Manager"],
+                      strings: [" Flutter Expert", "Product Manager"],
                       autoStart: true,
                       loop: true,
                       deleteSpeed: "natural",
                       delay: "natural",
                       changeDeleteSpeed: "natural",
+                      wrapperClassName: "typeeffect",
                     }}
                   />
                 </h1>
-                <p className="text-white w-full md:w-1/2 font-normal text-md pt-6 leading-snug	">
-                  I'm a Tunisian based web designer & front‑end developer
-                  focused on crafting clean & user‑friendly experiences, I am
-                  passionate about building excellent
+                <p
+                  style={{ textShadow: "1px 1px #000" }}
+                  className="text-white w-full md:w-3/5 text-md pt-6 leading-snug	drop-shadow-2xl"
+                >
+                  I Help clients define product strategies and roadmaps aligned
+                  with their business goals and target market. I offer
+                  end-to-end mobile app development solutions, ensuring seamless
+                  experiences from concept to deployment. I Utilize agile
+                  methodologies to ensure efficient development processes.
                 </p>
               </div>
 
@@ -111,8 +118,10 @@ export const HomePage = () => {
         <hr className="w-3/4 border-1 border-black my-14  m-auto" />
 
         <div className="px-2 md:px-20">
-          <AboutMe />
-          <Counter />
+          <div className="h-screen">
+            <AboutMe />
+            <Counter />
+          </div>
           <hr className=" w-3/4 border-1 border-black my-20  m-auto" />
           <Expertise />
           <hr className=" w-3/4 border-1 border-black my-20  m-auto" />

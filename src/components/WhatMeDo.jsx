@@ -4,7 +4,7 @@ const WhatMeDo = () => {
   return (
     <div className="what-i-do" id="services">
       <h1 className=" font-bold text-5xl text-white pb-14">
-        What I <span className="text-primary-yellow">Do</span>
+        What I <span className="text-primary-yellow">Offer</span>
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 ">
         <div
@@ -51,11 +51,13 @@ const WhatMeDo = () => {
             />
           </svg>
 
-          <h1 className="text-white text-2xl py-6">App Development</h1>
+          <h1 className="text-white text-2xl py-6">
+            Cross Platform Mobile Apps
+          </h1>
 
-          <p className="text-primary-text-gray">
+          {/* <p className="text-primary-text-gray">
             We are many variations of passages of Lorem Ipsum available.
-          </p>
+          </p> */}
         </div>
         {/* ============ */}
         <div
@@ -103,11 +105,11 @@ const WhatMeDo = () => {
             />
           </svg>
 
-          <h1 className="text-white text-2xl py-6">Web Development</h1>
+          <h1 className="text-white text-2xl py-6">Flutter App Development</h1>
 
-          <p className="text-primary-text-gray">
+          {/* <p className="text-primary-text-gray">
             We are many variations of passages of Lorem Ipsum available.
-          </p>
+          </p> */}
         </div>
 
         <div
@@ -147,11 +149,11 @@ const WhatMeDo = () => {
             />
           </svg>
 
-          <h1 className="text-white text-2xl py-6">UI/UX Design</h1>
+          <h1 className="text-white text-2xl py-6">Mobile App Optimization</h1>
 
-          <p className="text-primary-text-gray">
+          {/* <p className="text-primary-text-gray">
             We are many variations of passages of Lorem Ipsum available.
-          </p>
+          </p> */}
         </div>
         {/* another card row */}
         <div
@@ -211,11 +213,11 @@ const WhatMeDo = () => {
             />
           </svg>
 
-          <h1 className="text-white text-2xl py-6">Digital Marketing</h1>
+          <h1 className="text-white text-2xl py-6">Project Management</h1>
 
-          <p className="text-primary-text-gray">
+          {/* <p className="text-primary-text-gray">
             We are many variations of passages of Lorem Ipsum available.
-          </p>
+          </p> */}
         </div>
         <div
           data-aos="flip-right"
@@ -254,11 +256,11 @@ const WhatMeDo = () => {
             </defs>
           </svg>
 
-          <h1 className="text-white text-2xl py-6">Creative Writing</h1>
+          <h1 className="text-white text-2xl py-6">Product Management</h1>
 
-          <p className="text-primary-text-gray">
+          {/* <p className="text-primary-text-gray">
             We are many variations of passages of Lorem Ipsum available.
-          </p>
+          </p> */}
         </div>
         <div
           data-aos="flip-up"
@@ -293,11 +295,11 @@ const WhatMeDo = () => {
             />
           </svg>
 
-          <h1 className="text-white text-2xl py-6">Motion</h1>
+          <h1 className="text-white text-2xl py-6">Product Consultancy</h1>
 
-          <p className="text-primary-text-gray">
+          {/* <p className="text-primary-text-gray">
             We are many variations of passages of Lorem Ipsum available.
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

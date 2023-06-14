@@ -8,48 +8,50 @@ const ProfessionalSkills = () => {
           href="#"
           className="p-5 px-6 pro-skills hover:text-white rounded-xl"
         >
-          <h1 className="text-white text-2xl py-4">Responsive</h1>
+          <h1 className="text-primary-yellow text-2xl py-4">
+            Mobile App Development
+          </h1>
 
-          <p className="">
+          {/* <p className="">
             <span className="text-primary-yellow">
               My layouts will work on any device big or sma,ll.
             </span>
-          </p>
+          </p> */}
           <p className="text-primary-text-gray pt-6">
-            The education should be very interactual. Ut tincidunt est ac dolor
-            aliquam sodales.
+            Familiarity with mobile app development concepts, such as handling
+            device-specific features (camera, GPS, sensors), working with
+            RESTful APIs, integrating with backend services, and managing local
+            data storage (using SQLite or shared preferences) is necessary.
           </p>
         </div>
         <div
           href="#"
           className="p-5 px-6 pro-skills hover:text-white rounded-xl"
         >
-          <h1 className="text-white text-2xl py-4">Intuitive</h1>
+          <h1 className="text-primary-yellow text-2xl py-4">
+            Problem Solving and Debugging{" "}
+          </h1>
 
-          <p className="">
-            <span className="text-primary-yellow">
-              My layouts will work on any device big or sma,ll.
-            </span>
-          </p>
           <p className="text-primary-text-gray pt-6">
-            The education should be very interactual. Ut tincidunt est ac dolor
-            aliquam sodales.
+            Strong problem-solving skills are vital for a Flutter developer.
+            Being able to identify and fix bugs, optimize performance, and
+            troubleshoot issues is crucial for delivering high-quality
+            applications.
           </p>
         </div>
         <div
           href="#"
           className="p-5 px-6 pro-skills hover:text-white rounded-xl"
         >
-          <h1 className="text-white text-2xl py-4">Dynamic</h1>
+          <h1 className="text-primary-yellow text-2xl py-4">
+            Product Strategy
+          </h1>
 
-          <p className="">
-            <span className="text-primary-yellow">
-              My layouts will work on any device big or sma,ll.
-            </span>
-          </p>
           <p className="text-primary-text-gray pt-6">
-            The education should be very interactual. Ut tincidunt est ac dolor
-            aliquam sodales.
+            The ability to define and communicate the product vision, goals, and
+            roadmap is crucial. Product managers need to understand market
+            trends, user needs, and business objectives to develop a successful
+            product strategy.
           </p>
         </div>
       </div>
@@ -57,69 +59,45 @@ const ProfessionalSkills = () => {
         <h1 className="text-white text-2xl py-4">Skills</h1>
 
         <div className="relative pt-2 mt-4">
-          <p className="py-2">HTML</p>
+          <p className="py-2">DART</p>
           <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
-            78%
+            85%
           </div>
           <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
             <div
               class="bg-primary-yellow h-1 rounded-full"
-              style={{ width: "80%" }}
-            ></div>
-          </div>
-        </div>
-        <div className="relative pt-4 mt-6">
-          <p className="py-2">JAVASCRIPT</p>
-          <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
-            78%
-          </div>
-          <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-            <div
-              class="bg-primary-yellow h-1 rounded-full"
-              style={{ width: "80%" }}
-            ></div>
-          </div>
-        </div>
-        <div className="relative pt-4 mt-6">
-          <p className="py-2">JQUERY</p>
-          <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
-            78%
-          </div>
-          <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-            <div
-              class="bg-primary-yellow h-1 rounded-full"
-              style={{ width: "80%" }}
-            ></div>
-          </div>
-        </div>
-        <div className="relative pt-4 mt-6">
-          <p className="py-2">PHP</p>
-          <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
-            78%
-          </div>
-          <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-            <div
-              class="bg-primary-yellow h-1 rounded-full"
-              style={{ width: "80%" }}
-            ></div>
-          </div>
-        </div>
-        <div className="relative pt-4 mt-6">
-          <p className="py-2">JAVA</p>
-          <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
-            78%
-          </div>
-          <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
-            <div
-              class="bg-primary-yellow h-1 rounded-full"
-              style={{ width: "80%" }}
+              style={{ width: "85%" }}
             ></div>
           </div>
         </div>
         <div className="relative pt-4 mt-6">
           <p className="py-2">FLUTTER</p>
           <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
-            78%
+            88%
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+            <div
+              class="bg-primary-yellow h-1 rounded-full"
+              style={{ width: "88%" }}
+            ></div>
+          </div>
+        </div>
+        <div className="relative pt-4 mt-6">
+          <p className="py-2">STATE MANAGEMENT</p>
+          <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
+            82%
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+            <div
+              class="bg-primary-yellow h-1 rounded-full"
+              style={{ width: "82%" }}
+            ></div>
+          </div>
+        </div>
+        <div className="relative pt-4 mt-6">
+          <p className="py-2">FIREBASE & CLOUD FIRESTORE</p>
+          <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
+            80%
           </div>
           <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
             <div
@@ -129,14 +107,38 @@ const ProfessionalSkills = () => {
           </div>
         </div>
         <div className="relative pt-4 mt-6">
-          <p className="py-2">ANDROID</p>
+          <p className="py-2">PROJECT MANAGEMENT</p>
           <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
             78%
           </div>
           <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
             <div
               class="bg-primary-yellow h-1 rounded-full"
-              style={{ width: "80%" }}
+              style={{ width: "78%" }}
+            ></div>
+          </div>
+        </div>
+        <div className="relative pt-4 mt-6">
+          <p className="py-2">PRODUCT MANAGEMENT</p>
+          <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
+            74%
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+            <div
+              class="bg-primary-yellow h-1 rounded-full"
+              style={{ width: "74%" }}
+            ></div>
+          </div>
+        </div>
+        <div className="relative pt-4 mt-6">
+          <p className="py-2">VERSION CONTROL</p>
+          <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
+            82%
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
+            <div
+              class="bg-primary-yellow h-1 rounded-full"
+              style={{ width: "82%" }}
             ></div>
           </div>
         </div>

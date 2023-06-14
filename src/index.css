@@ -16,6 +16,11 @@ body {
   background-size: cover;
 }
 
+.typeeffect {
+  transition-duration: 3s;
+  transition: all ease;
+}
+
 @layer base {
   body {
     font-family: "Montserrat", sans-serif;
@@ -91,8 +96,8 @@ body {
     width: 100%;
     height: 100%;
     background: linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      /* Adjust the opacity to make it darker or lighter */ rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.2),
+      /* Adjust the opacity to make it darker or lighter */ rgba(0, 0, 0, 0.9)
     );
     z-index: -1;
   }
@@ -105,10 +110,21 @@ body {
     width: 100%;
     height: 100%;
     background: url(/images/sidebar-bg.png);
+    mix-blend-mode: lighten;
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
     z-index: -2;
+    background-blend-mode: lighten;
+  }
+
+  .side-link-active * {
+    color: #ffb400;
+    fill: #ffb400;
+  }
+  .side-link-video-active * {
+    color: #ffb400;
+    stroke: #ffb400;
   }
 
   .side-link:hover * {

@@ -1,16 +1,23 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../assets/images/urdulogo.png";
 
 const SideBar = () => {
+  const [activeMenu, setActiveMenu] = useState("home");
+
   return (
     <>
-      <div className="sidebar-image  mt-28">
+      <div className="sidebar-image  mt-28 mix-blend-lighten">
         <div className="do-not-remove-this ">
           <div className="p-5 flex flex-col sm:justify-around items-center ">
             <div className="menu flex flex-col gap-4 ">
               <a
+                onClick={() => {
+                  setActiveMenu("home");
+                }}
                 href="#home"
-                className="px-3 side-link  cursor-pointer flex items-center gap-2 rounded-lg"
+                className={`px-3 side-link   cursor-pointer flex items-center gap-2 rounded-lg ${
+                  activeMenu === "home" ? "side-link-active" : ""
+                }`}
               >
                 <svg
                   className="w-5 h-5"
@@ -28,8 +35,13 @@ const SideBar = () => {
                 <h2 className="font-semibold text-md">Home</h2>
               </a>
               <a
+                onClick={() => {
+                  setActiveMenu("about");
+                }}
                 href="#about"
-                className="px-3 side-link  cursor-pointer flex items-center gap-2 rounded-lg"
+                className={`px-3 side-link   cursor-pointer flex items-center gap-2 rounded-lg ${
+                  activeMenu === "about" ? "side-link-active" : ""
+                }`}
               >
                 <svg
                   className="w-5 h-5"
@@ -48,8 +60,13 @@ const SideBar = () => {
                 <h2 className="font-semibold text-md">About me</h2>
               </a>
               <a
+                onClick={() => {
+                  setActiveMenu("video");
+                }}
                 href="#video"
-                className="px-3 side-link-video  cursor-pointer flex items-center gap-2 rounded-lg"
+                className={`px-3 side-link-video  cursor-pointer flex items-center gap-2 rounded-lg ${
+                  activeMenu === "video" ? "side-link-video-active" : ""
+                }`}
               >
                 <svg
                   className="w-5 h-5"
@@ -76,8 +93,13 @@ const SideBar = () => {
                 <h2 className="font-semibold text-md">Video</h2>
               </a>
               <a
+                onClick={() => {
+                  setActiveMenu("services");
+                }}
                 href="#services"
-                className="px-3 side-link  cursor-pointer flex items-center gap-2 rounded-lg"
+                className={`px-3 side-link   cursor-pointer flex items-center gap-2 rounded-lg ${
+                  activeMenu === "services" ? "side-link-active" : ""
+                }`}
               >
                 <svg
                   className="w-5 h-5"
@@ -112,8 +134,13 @@ const SideBar = () => {
                 <h2 className="font-semibold text-md">Services</h2>
               </a>
               <a
+                onClick={() => {
+                  setActiveMenu("resume");
+                }}
                 href="#resume"
-                className="px-3 side-link  cursor-pointer flex items-center gap-2 rounded-lg"
+                className={`px-3 side-link   cursor-pointer flex items-center gap-2 rounded-lg ${
+                  activeMenu === "resume" ? "side-link-active" : ""
+                }`}
               >
                 <svg
                   className="w-5 h-5"
@@ -148,8 +175,13 @@ const SideBar = () => {
                 <h2 className="font-semibold text-md">Resume</h2>
               </a>
               <a
+                onClick={() => {
+                  setActiveMenu("portfolio");
+                }}
                 href="#portfolio"
-                className="px-3 side-link  cursor-pointer flex items-center gap-2 rounded-lg"
+                className={`px-3 side-link   cursor-pointer flex items-center gap-2 rounded-lg ${
+                  activeMenu === "portfolio" ? "side-link-active" : ""
+                }`}
               >
                 <svg
                   className="w-5 h-5"
@@ -168,8 +200,13 @@ const SideBar = () => {
                 <h2 className="font-semibold text-md">Portfolio</h2>
               </a>
               <a
+                onClick={() => {
+                  setActiveMenu("highlights");
+                }}
                 href="#highlights"
-                className="px-3 side-link  cursor-pointer flex items-center gap-2 rounded-lg"
+                className={`px-3 side-link   cursor-pointer flex items-center gap-2 rounded-lg ${
+                  activeMenu === "highlights" ? "side-link-active" : ""
+                }`}
               >
                 <svg
                   className="w-5 h-5"
@@ -188,8 +225,13 @@ const SideBar = () => {
                 <h2 className="font-semibold text-md">Lifestyle</h2>
               </a>
               <a
+                onClick={() => {
+                  setActiveMenu("blogs");
+                }}
                 href="#blogs"
-                className="px-3 side-link  cursor-pointer flex items-center gap-2 rounded-lg"
+                className={`px-3 side-link   cursor-pointer flex items-center gap-2 rounded-lg ${
+                  activeMenu === "blogs" ? "side-link-active" : ""
+                }`}
               >
                 <svg
                   className="w-5 h-5"
@@ -220,8 +262,13 @@ const SideBar = () => {
                 <h2 className="font-semibold text-md">Blogs</h2>
               </a>
               <a
+                onClick={() => {
+                  setActiveMenu("testimonials");
+                }}
                 href="#testimonials"
-                className="px-3 side-link  cursor-pointer flex items-center gap-2 rounded-lg"
+                className={`px-3 side-link   cursor-pointer flex items-center gap-2 rounded-lg ${
+                  activeMenu === "testimonials" ? "side-link-active" : ""
+                }`}
               >
                 <svg
                   className="w-5 h-5"
@@ -245,8 +292,13 @@ const SideBar = () => {
               </a>
 
               <a
+                onClick={() => {
+                  setActiveMenu("contact");
+                }}
                 href="#contact"
-                className="px-3 side-link  cursor-pointer flex items-center gap-2 rounded-lg"
+                className={`px-3 side-link   cursor-pointer flex items-center gap-2 rounded-lg ${
+                  activeMenu === "contact" ? "side-link-active" : ""
+                }`}
               >
                 <svg
                   className="w-5 h-5"

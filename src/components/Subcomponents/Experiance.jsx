@@ -6,15 +6,21 @@ const Experiance = () => {
       <div className="card-shadow  p-8">
         <div
           href="#"
-          className="p-4   relative duration-300 cursor-pointer experience hover:text-white rounded-xl"
+          className="p-4 relative duration-300 cursor-pointer experience hover:text-white rounded-xl"
         >
-          <h1 className="text-white text-2xl py-4">Bachelor Degree</h1>
+          <h1 className="text-white text-2xl py-4">
+            Lead Flutter Developer & Product Manager
+          </h1>
 
           <p className="flex   justify-between">
-            <span className="text-primary-yellow">
-              University of DVI (2005 - 2009)
-            </span>
-            <span>4.30/5</span>
+            <a
+              href="https:www.tecmyer.com.au"
+              target="_blank"
+              className="text-primary-yellow"
+            >
+              Tecmyer
+            </a>
+            <span>Since 2020</span>
           </p>
           <p className="text-primary-text-gray pt-6">
             The education should be very interactual. Ut tincidunt est ac dolor
@@ -67,15 +73,19 @@ const Experiance = () => {
         </div>
         <div
           href="#"
-          className="p-4 relative duration-300 cursor-pointer experience hover:text-white rounded-xl"
+          className="p-4   relative duration-300 cursor-pointer experience hover:text-white rounded-xl"
         >
-          <h1 className="text-white text-2xl py-4">Bachelor Degree</h1>
+          <h1 className="text-white text-2xl py-4">Flutter Developer</h1>
 
           <p className="flex   justify-between">
-            <span className="text-primary-yellow">
-              University of DVI (2005 - 2009)
-            </span>
-            <span>4.30/5</span>
+            <a
+              href="https://www.linkedin.com/school/ewiglife/?originalSubdomain=pk"
+              target="_blank"
+              className="text-primary-yellow"
+            >
+              EwigLife Cloud Technologies
+            </a>
+            <span>2017 - 2018</span>
           </p>
           <p className="text-primary-text-gray pt-6">
             The education should be very interactual. Ut tincidunt est ac dolor
@@ -132,13 +142,19 @@ const Experiance = () => {
           href="#"
           className="p-4 relative duration-300 cursor-pointer experience hover:text-white rounded-xl"
         >
-          <h1 className="text-white text-2xl py-4">Bachelor Degree</h1>
+          <h1 className="text-white text-2xl py-4">
+            Sr. Flutter Developer & Project Manager
+          </h1>
 
           <p className="flex   justify-between">
-            <span className="text-primary-yellow">
-              University of DVI (2005 - 2009)
-            </span>
-            <span>4.30/5</span>
+            <a
+              href="https://progvalley.com/"
+              target="_blank"
+              className="text-primary-yellow"
+            >
+              Programmers Valley PVT LTD.
+            </a>
+            <span>2018 - 2020</span>
           </p>
           <p className="text-primary-text-gray pt-6">
             The education should be very interactual. Ut tincidunt est ac dolor
@@ -193,13 +209,17 @@ const Experiance = () => {
           href="#"
           className="p-4 mt-4  relative duration-300 cursor-pointer experience hover:text-white rounded-xl"
         >
-          <h1 className="text-white text-2xl py-4">Bachelor Degree</h1>
+          <h1 className="text-white text-2xl py-4">Web Developer</h1>
 
           <p className="flex   justify-between">
-            <span className="text-primary-yellow">
-              University of DVI (2005 - 2009)
-            </span>
-            <span>4.30/5</span>
+            <a
+              href="https://www.vvorkcloud.com/"
+              target="_blank"
+              className="text-primary-yellow"
+            >
+              Vvork
+            </a>
+            <span>2016 - 2018</span>
           </p>
           <p className="text-primary-text-gray pt-6">
             The education should be very interactual. Ut tincidunt est ac dolor

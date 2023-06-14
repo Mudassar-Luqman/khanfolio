@@ -83,7 +83,7 @@ const Expertise = () => {
                 and cloud storage.
               </p>
             </div>
-            <div className="icon-text flex gap-5  items-start align-top pb-8">
+            {/* <div className="icon-text flex gap-5  items-start align-top pb-8">
               <img className="h-6 w-6" src={tick} alt="tick" />
               <p className=" font-normal text-sm ">
                 <span className="text-primary-yellow pr-1">
@@ -92,16 +92,16 @@ const Expertise = () => {
                 Knowledge of version control systems like Git/ bitbucket/Gitlab
                 for collaborative development.
               </p>
-            </div>
-            <div className="icon-text flex gap-5  items-start align-top pb-8">
+            </div> */}
+            {/* <div className="icon-text flex gap-5  items-start align-top pb-8">
               <img className="h-6 w-6" src={tick} alt="tick" />
               <p className=" font-normal text-sm ">
                 <span className="text-primary-yellow pr-1">Testing:</span>
                 Understanding of mobile app testing frameworks and practices,
                 including unit testing and widget testing.
               </p>
-            </div>
-            <div className="icon-text flex gap-5  items-start align-top pb-8">
+            </div> */}
+            {/* <div className="icon-text flex gap-5  items-start align-top pb-8">
               <img className="h-6 w-6" src={tick} alt="tick" />
               <p className=" font-normal text-sm ">
                 <span className="text-primary-yellow pr-1">
@@ -110,7 +110,7 @@ const Expertise = () => {
                 Continuous integration and deployment using tools like Flutter
                 CLI or CI/CD platforms.
               </p>
-            </div>
+            </div> */}
           </div>
           <div className="card-shadow  px-8 py-10" data-aos="fade-left">
             <h2 className="text-white uppercase tracking-widest	 font-bold text-xl pb-10">
@@ -171,7 +171,7 @@ const Expertise = () => {
                 address their specific needs.
               </p>
             </div>
-            <div className="icon-text flex gap-5  items-start align-top pb-8">
+            {/* <div className="icon-text flex gap-5  items-start align-top pb-8">
               <img className="h-6 w-6" src={tick} alt="tick" />
               <p className=" font-normal text-sm ">
                 <span className="text-primary-yellow pr-1">
@@ -180,7 +180,7 @@ const Expertise = () => {
                 Identify and mitigate project risks proactively, minimizing
                 disruptions and ensuring smooth project progress.
               </p>
-            </div>
+            </div> */}
             <div className="icon-text flex gap-5  items-start align-top pb-8">
               <img className="h-6 w-6" src={tick} alt="tick" />
               <p className=" font-normal text-sm ">
@@ -192,7 +192,7 @@ const Expertise = () => {
                 functionality.
               </p>
             </div>
-            <div className="icon-text flex gap-5  items-start align-top pb-8">
+            {/* <div className="icon-text flex gap-5  items-start align-top pb-8">
               <img className="h-6 w-6" src={tick} alt="tick" />
               <p className=" font-normal text-sm ">
                 <span className="text-primary-yellow pr-1">
@@ -202,7 +202,7 @@ const Expertise = () => {
                 their input, addressing concerns, and maintaining strong
                 relationships.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
