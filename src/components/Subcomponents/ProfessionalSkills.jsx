@@ -60,7 +60,7 @@ const ProfessionalSkills = () => {
 
         <div className="relative pt-2 mt-4">
           <p className="py-2">DART</p>
-          <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
+          <div class="box-arrow absolute -translate-y-12 -translate-x-2 right-10 text-center rounded-sm">
             85%
           </div>
           <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
@@ -72,7 +72,7 @@ const ProfessionalSkills = () => {
         </div>
         <div className="relative pt-4 mt-6">
           <p className="py-2">FLUTTER</p>
-          <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
+          <div class="box-arrow absolute -translate-y-12 right-8 text-center rounded-sm">
             88%
           </div>
           <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
@@ -84,7 +84,7 @@ const ProfessionalSkills = () => {
         </div>
         <div className="relative pt-4 mt-6">
           <p className="py-2">STATE MANAGEMENT</p>
-          <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
+          <div class="box-arrow absolute -translate-y-12 right-14 text-center rounded-sm">
             82%
           </div>
           <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
@@ -96,7 +96,7 @@ const ProfessionalSkills = () => {
         </div>
         <div className="relative pt-4 mt-6">
           <p className="py-2">FIREBASE & CLOUD FIRESTORE</p>
-          <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
+          <div class="box-arrow absolute -translate-y-12 right-16 text-center rounded-sm">
             80%
           </div>
           <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
@@ -108,7 +108,7 @@ const ProfessionalSkills = () => {
         </div>
         <div className="relative pt-4 mt-6">
           <p className="py-2">PROJECT MANAGEMENT</p>
-          <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
+          <div class="box-arrow absolute -translate-y-12 right-16 -translate-x-2 text-center rounded-sm">
             78%
           </div>
           <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
@@ -120,7 +120,7 @@ const ProfessionalSkills = () => {
         </div>
         <div className="relative pt-4 mt-6">
           <p className="py-2">PRODUCT MANAGEMENT</p>
-          <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
+          <div class="box-arrow absolute -translate-y-12 right-24 text-center rounded-sm">
             74%
           </div>
           <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
@@ -132,7 +132,7 @@ const ProfessionalSkills = () => {
         </div>
         <div className="relative pt-4 mt-6">
           <p className="py-2">VERSION CONTROL</p>
-          <div class="box-arrow absolute -translate-y-12 right-10 text-center rounded-sm">
+          <div class="box-arrow absolute -translate-y-12 right-14 text-center rounded-sm">
             82%
           </div>
           <div class="w-full bg-gray-200 rounded-full h-1 dark:bg-gray-700">
